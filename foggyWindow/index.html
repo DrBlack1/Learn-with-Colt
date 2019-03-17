@@ -1,0 +1,50 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<title>facetracking</title>
+		<meta http-equiv="X-UA-Compatible" content="IE=Edge"/>
+		<meta charset="utf-8">
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+		<script src="./js/headtrackr.js"></script>
+		<script src="./js/main.js" charset="utf-8"></script>
+		<script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-32642923-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+    <link rel="stylesheet" type="text/css" href="mystyle.css"/>
+    <link href='http://fonts.googleapis.com/css?family=Lato:700,100' rel='stylesheet' type='text/css'>
+	</head>
+	<body>
+
+		<!--  Rain video , this is top and left 0 -->
+		<iframe src="https://www.youtube.com//v/zRMoi-xipQ0?start=15&playlist=zRMoi-xipQ0&autoplay=1&rel=0" frameborder="0" onload="this.width=screen.width;this.height=screen.height;" allowfullscreen>
+		</iframe>
+
+		<!-- All for Headtrackr -->
+		<canvas id="compare" width="320" height="240" style="display:none"></canvas>
+		<video id="vid" autoplay loop width="320" height="240" style="display:none"></video>
+		<canvas id="overlay" width="320" height="240" ></canvas>
+
+		<canvas style="margin:0;padding:0;position:absolute;top:0;left:0;border: 1px solid #000" id="pracImgCanvas" >
+		</canvas>
+
+		<div id="introInfo">
+			<div id="introText">
+				<h3><span id="fog">FOG</span> WINDOW</h3>
+				<p><span class="bold">To use:</span> Allow the camera settings and proceed to blow closely onto the screen at a slow, steady pace. You'll need to get quite close to achieve results. After blowing, use your cursor / touch screen to draw as you please.</p>
+				<p class="inspiration">Inspired by sleepy afternoons and simple pleasures.</p>
+			</div>
+			<p class="creators">Valentina & Armand</p>
+		</div>
+
+
+		<script type="text/javascript">
+		</script>
+	</body>
+</html>
